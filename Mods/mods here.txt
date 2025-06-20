@@ -1,0 +1,1 @@
+Place mod directories here and restart the game using "LOR With Mods".

@@ -1,0 +1,45 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>KayScythe</Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="10" pivot_y="-200" />
+      <Head head_x="7" head_y="373" rotation="0" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="10" pivot_y="-200" />
+      <Head head_x="-14" head_y="324" rotation="0" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="10" pivot_y="-200" />
+      <Head head_x="32" head_y="359" rotation="7" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="10" pivot_y="-200" />
+      <Head head_x="5" head_y="332" rotation="19" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="161" pivot_y="-483" />
+      <Head head_x="-18" head_y="327" rotation="1" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="-177" pivot_y="-195" />
+      <Head head_x="-35" head_y="336" rotation="0" head_enable="True" />
+    </Penetrate>
+    <Hit>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="10" pivot_y="-200" />
+      <Head head_x="-32" head_y="315" rotation="10" head_enable="True" />
+    </Hit>
+    <Move>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="10" pivot_y="-202" />
+      <Head head_x="-72" head_y="364" rotation="0" head_enable="True" />
+    </Move>
+  </ClothInfo>
+</ModInfo>

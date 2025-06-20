@@ -1,0 +1,45 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>Kether Custom</Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="62.09999" pivot_y="-160.8" />
+      <Head head_x="-11.49999" head_y="358.6" rotation="0" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-41.39999" pivot_y="-218.3" />
+      <Head head_x="-13.8" head_y="342.4999" rotation="0" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="23" pivot_y="-229.8" />
+      <Head head_x="-18.4" head_y="337.8999" rotation="0" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="27.6" pivot_y="-225.2" />
+      <Head head_x="-43.7" head_y="337.9" rotation="20.19753" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="-115" pivot_y="-174.6" />
+      <Head head_x="-48.29999" head_y="314.9" rotation="0" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="140.3" pivot_y="-153.9001" />
+      <Head head_x="-41.39999" head_y="335.6001" rotation="11.41201" head_enable="True" />
+    </Penetrate>
+    <Hit>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="13.8" pivot_y="-107.9" />
+      <Head head_x="-20.7" head_y="326.4" rotation="0" head_enable="False" />
+    </Hit>
+    <Move>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="23" pivot_y="-117.1" />
+      <Head head_x="-87.39999" head_y="321.8" rotation="25.25834" head_enable="True" />
+    </Move>
+  </ClothInfo>
+</ModInfo>
