@@ -11,11 +11,11 @@ namespace ShootoutCode
 
 	public class DiceCardSelfAbility_shootout_base : DiceCardSelfAbilityBase
 	{
-		public static string Desc = "[On Use] Replace all die of this card with a random 0 cost card, then, discard that card and return to hand.\nIf no valid card is avalible, use this card's die and don't return.";
+		public static string Desc = "[On Use] Replace all die of this card with a random 0-1 cost card, then, discard that card and return to hand.\nIf no valid card is avalible, use this card's die and don't return.";
 
 		public virtual int GetLightRange()
 		{
-			return 0;
+			return 1;
 		}
 
 		public override void OnUseCard()
