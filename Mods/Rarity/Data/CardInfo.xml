@@ -31,7 +31,7 @@
     <Artwork>Find_Gems.png</Artwork>
     <Rarity>Rare</Rarity>
     <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
-    <Script />
+    <Script/>
     <ScriptDesc />
     <BehaviourList>
       <Behaviour Min="5" Dice="9" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="AwlOfNight_G" Script="carnival" ActionScript="" Desc="" />

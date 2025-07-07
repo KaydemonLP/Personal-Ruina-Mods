@@ -1,10 +1,11 @@
-﻿using System;
+﻿using LOR_DiceSystem;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using LOR_DiceSystem;
 using UnityEngine;
+using static CharacterSound;
 
 public class Initializer : ModInitializer
 {
@@ -44,4 +45,25 @@ public class DiceCardSelfAbility_hand_endurance : DiceCardSelfAbilityBase
 	}
 }
 
+#endregion
+
+#region passive ability
+public class PassiveAbility_discord_discard : PassiveAbilityBase
+{
+	public override void OnDiscardByAbility(List<BattleDiceCardModel> cards)
+	{
+		DiceCardSelfAbilityBase oldAbility = owner.currentDiceAction.cardAbility;
+
+		foreach ( BattleDiceCardModel card in cards )
+		{
+			DiceCardSelfAbilityBase ability = card.CreateDiceCardSelfAbilityScript();
+			ability.card = owner.currentDiceAction;
+			owner.currentDiceAction.cardAbility = ability;
+			owner.currentDiceAction.OnUseCard();
+			owner.currentDiceAction.card.OnUseCard(owner, owner.currentDiceAction);
+		}
+
+		owner.currentDiceAction.cardAbility = oldAbility;
+	}
+}
 #endregion

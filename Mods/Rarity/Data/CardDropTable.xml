@@ -6,4 +6,5 @@
     <Card>2</Card>
     <Card>3</Card>
   </DropTable>
+  <DropTable ID="2" />
 </CardDropTableXmlRoot>

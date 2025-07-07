@@ -8,4 +8,12 @@
     <Chapter>5</Chapter>
     <BookValue>0</BookValue>
   </BookUse>
+  <BookUse ID="2">
+    <Name>Book of Chaos</Name>
+    <TextId />
+    <BookIcon />
+    <Chapter>6</Chapter>
+    <BookValue>0</BookValue>
+    <DropItem Type="Equip">10000001</DropItem>
+  </BookUse>
 </BookUseXmlRoot>

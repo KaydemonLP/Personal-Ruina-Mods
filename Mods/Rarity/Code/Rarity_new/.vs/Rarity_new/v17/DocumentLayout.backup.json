@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Games\\Library.Of.Ruina.v1.1.0.6a13\\LibraryOfRuina_Data\\Mods\\Rarity\\Code\\Rarity_new\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE7D5F82-B800-42B1-98D1-3B5D9DA9E435}|Rarity\\Rarity.csproj|f:\\games\\library.of.ruina.v1.1.0.6a13\\libraryofruina_data\\mods\\rarity\\code\\rarity_new\\rarity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE7D5F82-B800-42B1-98D1-3B5D9DA9E435}|Rarity\\Rarity.csproj|solutionrelative:rarity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "F:\\Games\\Library.Of.Ruina.v1.1.0.6a13\\LibraryOfRuina_Data\\Mods\\Rarity\\Code\\Rarity_new\\Rarity\\Class1.cs",
+              "RelativeDocumentMoniker": "Rarity\\Class1.cs",
+              "ToolTip": "F:\\Games\\Library.Of.Ruina.v1.1.0.6a13\\LibraryOfRuina_Data\\Mods\\Rarity\\Code\\Rarity_new\\Rarity\\Class1.cs",
+              "RelativeToolTip": "Rarity\\Class1.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAD0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T15:46:54.858Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
